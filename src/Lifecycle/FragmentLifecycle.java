@@ -23,6 +23,7 @@ public class FragmentLifecycle extends Lifecycle {
     private static final String ON_START = "onStart";
     private static final String ON_RESUME = "onResume";
     private static final String ON_PAUSE = "onPause";
+    private static final String ON_SAVE_INSTANCE_STATE = "onSaveInstanceState";
     private static final String ON_STOP = "onStop";
     private static final String ON_DESTROY_VIEW = "onDestroyView";
     private static final String ON_DESTROY = "onDestroy";
@@ -44,6 +45,7 @@ public class FragmentLifecycle extends Lifecycle {
         FRAGMENT_LIFECYCLE_METHODS.add(ON_START);
         FRAGMENT_LIFECYCLE_METHODS.add(ON_RESUME);
         FRAGMENT_LIFECYCLE_METHODS.add(ON_PAUSE);
+        FRAGMENT_LIFECYCLE_METHODS.add(ON_SAVE_INSTANCE_STATE);
         FRAGMENT_LIFECYCLE_METHODS.add(ON_STOP);
         FRAGMENT_LIFECYCLE_METHODS.add(ON_DESTROY_VIEW);
         FRAGMENT_LIFECYCLE_METHODS.add(ON_DESTROY);
