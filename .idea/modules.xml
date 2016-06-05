@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LifecycleSorter.iml" filepath="$PROJECT_DIR$/LifecycleSorter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lifecycle-Sorter.iml" filepath="$PROJECT_DIR$/Lifecycle-Sorter.iml" />
     </modules>
   </component>
 </project>
