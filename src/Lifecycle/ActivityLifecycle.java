@@ -20,6 +20,9 @@ public class ActivityLifecycle extends Lifecycle {
     private static final String ON_RESTORE_INSTANCE_STATE = "onRestoreInstanceState";
     private static final String ON_RESUME = "onResume";
     private static final String ON_POST_RESUME = "onPostResume";
+    private static final String ON_ATTACHED_TO_WINDOW = "onAttachedToWindow";
+    private static final String ON_CREATE_OPTIONS_MENU = "onCreateOptionsMenu";
+    private static final String ON_PREPARE_OPTIONS_MENU = "onPrepareOptionsMenu";
     private static final String ON_PAUSE = "onPause";
     private static final String ON_SAVE_INSTANCE_STATE = "onSaveInstanceState";
     private static final String ON_STOP = "onStop";
@@ -40,6 +43,9 @@ public class ActivityLifecycle extends Lifecycle {
         ACTIVITY_LIFECYCLE_METHODS.add(ON_RESTORE_INSTANCE_STATE);
         ACTIVITY_LIFECYCLE_METHODS.add(ON_RESUME);
         ACTIVITY_LIFECYCLE_METHODS.add(ON_POST_RESUME);
+        ACTIVITY_LIFECYCLE_METHODS.add(ON_ATTACHED_TO_WINDOW);
+        ACTIVITY_LIFECYCLE_METHODS.add(ON_CREATE_OPTIONS_MENU);
+        ACTIVITY_LIFECYCLE_METHODS.add(ON_PREPARE_OPTIONS_MENU);
         ACTIVITY_LIFECYCLE_METHODS.add(ON_PAUSE);
         ACTIVITY_LIFECYCLE_METHODS.add(ON_SAVE_INSTANCE_STATE);
         ACTIVITY_LIFECYCLE_METHODS.add(ON_STOP);
